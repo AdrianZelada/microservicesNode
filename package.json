@@ -1,0 +1,42 @@
+{
+  "name": "microservices-node",
+  "version": "1.0.0",
+  "description": "Template microservice node Rabbitqm.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adrian Zelada, zelada_torrez@hotmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.13.4",
+    "kue": "^0.11.6",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.7.0",
+    "nodemailer": "^4.0.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "mocha": "^2.4.5",
+    "node-inspector": "^0.12.7",
+    "should": "^8.3.0",
+    "supertest": "^1.2.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "semi": 2
+    }
+  }
+}

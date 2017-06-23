@@ -13,8 +13,8 @@ module.exports = {
   },
     email:{
         'service':'Gmail',
-        'userEmail':'send.mail.note@gmail.com',
-        'userPass':'send.email.note16',
+        'userEmail':'xxxx@gmail.com',
+        'userPass':'send.xxxxx',
         host:'localhost',
     },
     'ports' : {
